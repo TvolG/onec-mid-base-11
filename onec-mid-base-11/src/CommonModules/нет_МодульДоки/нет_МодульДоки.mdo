@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="333ba62d-c33b-4d4a-ba40-f7bcc73f72f4">
+  <name>нет_МодульДоки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица на форме</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

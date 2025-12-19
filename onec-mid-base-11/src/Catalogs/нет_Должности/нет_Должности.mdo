@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aff0f72c-6db3-4301-be3e-c4aca926abcc">
+  <producedTypes>
+    <objectType typeId="45b9b9dd-d1b9-4c09-ae58-b751db3444e0" valueTypeId="166ca780-5c3a-46fc-ad9f-cda0f0f9c032"/>
+    <refType typeId="9c66f559-c87b-4958-bba4-2e694021883c" valueTypeId="1c50f085-55ff-41ba-89d4-95e0ea45a704"/>
+    <selectionType typeId="47987389-28e5-49a7-8fce-adb76f7b6da5" valueTypeId="d2d7d94e-1775-4c06-84ad-905147455ca7"/>
+    <listType typeId="035aab70-0670-4802-9c97-ebd4b60249f4" valueTypeId="0e999123-4b11-410d-a501-1dbaeb548203"/>
+    <managerType typeId="64375a0e-cd6e-4ded-9154-8adf1314696e" valueTypeId="c1081224-949d-44a7-8aec-0576db1eff41"/>
+  </producedTypes>
+  <name>нет_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.нет_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.нет_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6c916746-c492-446f-92fc-dfb5075b941d">
+    <name>Обязанности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязанности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
